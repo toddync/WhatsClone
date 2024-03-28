@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Select and upload images",
+          "cameraPermission": "Alow access to your camera"
+        }
+      ]
+    ],
+    "name": "WhatsClone",
+    "slug": "WhatsClone",
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.WhatsClone"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.WhatsClone"
+    }
+  }
+}
